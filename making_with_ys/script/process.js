@@ -20,7 +20,7 @@ $(function(){
         console.log(num);
         if(num < 232){
             
-        } else if (num >= 232 && num <= 1362){
+        } else if (num >= 232 && num <= 3300){
             $('.tit_box figure').css({'opacity':1})
             $('.process_list figure').css({'opacity':1})
             $('.tit_box figure').css({'top':num + 245});

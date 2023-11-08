@@ -185,36 +185,53 @@ main .process_list figure {
 main .process_list > div {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    /* position: relative; */
+    position: relative;
+    /* border: 1px solid red; */
 }
-/* main .process_list > .sterilization , main .process_list > .chunk {
-    justify-content: end;
-} */
 main .process_list > .pack {
     flex-direction: column;
     align-items: center;
 }
-main .process_list > div .tk_list , main .process_list > div .st_list , main .process_list > div .kp_list , main .process_list > div .ch_list , main .process_list > div .pt_list , main .process_list > div .pk_list {
-    width: 780px;
+/* main .process_list > div .tk_list , main .process_list > div .st_list , main .process_list > div .kp_list , main .process_list > div .ch_list , main .process_list > div .pt_list , main .process_list > div .pk_list {
+    border: 1px solid red;
+} */
+main .process_list > .tank {
+    margin-top: 200px;
 }
 main .process_list > div .tk_list {
-    margin-top: 250px;
+    /* margin-top: 250px; */
+}
+main .process_list > .sterilization {
+    justify-content: end;
+    margin-top: 364px;
 }
 main .process_list > div .st_list {
-    margin: 67px 0 200px;
+    /* margin: 67px 0 200px; */
+}
+main .process_list > .keep {
+    margin-top: 63px;
 }
 main .process_list > div .kp_list {
-    margin-top: 150px;
+    /* margin-top: 150px; */
+}
+main .process_list > .chunk {
+    justify-content: end;
+    margin-top: 472px;
 }
 main .process_list > div .ch_list {
-    margin: 142px 0 175px;
+    /* margin: 142px 0 175px; */
+}
+main .process_list > .pigment {
+    margin-top: 128px;
 }
 main .process_list > div .pt_list {
-    margin-top: 150px;
+    /* margin-top: 150px; */
+}
+main .process_list > .pack {
+    margin: 306px 0 869px;
 }
 main .process_list > div .pk_list {
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 main .process_list > div div h3 {
     font-family: 'Noto Sans KR', sans-serif;
@@ -237,7 +254,7 @@ main .process_list > div div p {
     font-weight: 300;
     font-size: 18px;
 }
-main .process_list .sterilization .pr_img {
+/* main .process_list .sterilization .pr_img {
     margin-top: 150px;
 }
 main .process_list .keep .pr_img {
@@ -251,37 +268,44 @@ main .process_list .pigment .pr_img {
 }
 main .process_list .pack .pr_img {
     display: flex;
-}
-/* main .process_list > div .pr_img {
+} */
+main .process_list > div .pr_img {
     position: absolute;
 }
 main .process_list .tank .pr_img {
     right: 0;
-    top: 0;
+    top: -200px;
+}
+main .process_list .tank .pr_img img {
+    width: 600px;
 }
 main .process_list .sterilization .pr_img {
     left: 0;
-    bottom: 0;
+    top: -164px;
 }
 main .process_list .keep .pr_img {
     right: 0;
-    top: 0;
+    top: 137px;
 }
 main .process_list .chunk .pr_img {
     left: 0;
-    bottom: 0;
+    bottom: 72px;
+}
+main .process_list .chunk .pr_img img {
+    width: 600px;
 }
 main .process_list .pigment .pr_img {
     right: 0;
-    top: 0;
+    top: 72px;
 }
 main .process_list .pack .pr_img {
     display: flex;
     left: 50%; transform: translateX(-50%);
-    bottom: 0;
-} */
+    bottom: -1020px;
+}
 main .process_list > div .pr_img img {
-    max-width: 800px;
+    /* max-width: 800px; */
+    /* display: none; */
 }
 
 
