@@ -271,32 +271,41 @@ main .process_list .pack .pr_img {
 } */
 main .process_list > div .pr_img {
     position: absolute;
+    transition: all 0.5s ease;
 }
 main .process_list .tank .pr_img {
-    right: 0;
+    right: -175px;
     top: -200px;
+    opacity: 0;
 }
 main .process_list .tank .pr_img img {
-    width: 600px;
+    width: 700px;
 }
 main .process_list .sterilization .pr_img {
-    left: 0;
+    left: -175px;
     top: -164px;
+    opacity: 0;
 }
 main .process_list .keep .pr_img {
-    right: 0;
+    right: -175px;
     top: 137px;
+    opacity: 0;
 }
-main .process_list .chunk .pr_img {
-    left: 0;
-    bottom: 72px;
-}
-main .process_list .chunk .pr_img img {
+main .process_list .keep .pr_img img {
     width: 600px;
 }
+main .process_list .chunk .pr_img {
+    left: -175px;
+    bottom: 72px;
+    opacity: 0;
+}
+/* main .process_list .chunk .pr_img img {
+    width: 600px;
+} */
 main .process_list .pigment .pr_img {
-    right: 0;
+    right: -175px;
     top: 72px;
+    opacity: 0;
 }
 main .process_list .pack .pr_img {
     display: flex;

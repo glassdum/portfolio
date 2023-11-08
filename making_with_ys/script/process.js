@@ -28,6 +28,22 @@ $(function(){
         } else {
             $('.tit_box figure').css({'opacity':0})
             $('.process_list figure').css({'opacity':0})
-        }
+        };
+
+        if(num >= 700){
+            $('.tank .pr_img').css({'opacity':1,'right':'-75px'})
+        };
+        if(num >= 1355){
+            $('.sterilization .pr_img').css({'opacity':1,'left':'-75px'})
+        };
+        if(num >= 1675){
+            $('.keep .pr_img').css({'opacity':1,'right':'-75px'})
+        };
+        if(num >= 2175){
+            $('.chunk .pr_img').css({'opacity':1,'left':'-75px'})
+        };
+        if(num >= 2875){
+            $('.pigment .pr_img').css({'opacity':1,'right':'-75px'})
+        };
     })
 });
