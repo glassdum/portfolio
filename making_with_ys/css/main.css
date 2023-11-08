@@ -97,6 +97,7 @@ main .slide_box .slide_cover {
     top: 0;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 52.08%);
     z-index: 5;
+    text-indent: -99999px;
 }
 main .slide_box .slide_images {
     position: relative;
